@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang ='en'>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="mikasa.css">
+        <link rel="stylesheet" href="normalize.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mikasa Kitchen - Authentic Japanese Recipes</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!--start nav bar-->
+        <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">Mikasa Kitchen</a>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Featured</a></li>
+                <li><a href="#">Recipes</a></li>
+                <li><a href="#">Masterclass</a></li>
+                <li><a href="#" class="nav-btn">Subscribe</a></li>
+            </ul>
+        </div>
+    </nav>
+        <!-- end nav bar -->
+         <!-- start food sections -->
+           <section class="featured-section">
+        <h2 class="section-title">Featured Recipes</h2>
+        <div class="slider-container">
+            <div class="slider-track" id="sliderTrack">
+                
+                <div class="slide">
+                    <div class="slide-img-box">
+                        <img src="https://placehold.co/600x450/e8dfd8/bc3b3b?text=Tonkotsu+Ramen" alt="Tonkotsu Ramen">
+                    </div>
+                    <div class="slide-content">
+                        <span class="badge">Chef's Choice</span>
+                        <h3 class="slide-title">Rich Tonkotsu Beef Ramen</h3>
+                        <p class="slide-desc">Experience the deep, comforting flavors of 18-hour simmered cow bone broth served with tender chashu, ajitsuke tamago, and fresh hand-pulled noodles.</p>
+                        <div class="recipe-meta">
+                            <div class="meta-item">
+                                <span class="meta-label">Prep Time</span>
+                                <span class="meta-value">45 mins</span>
+                            </div>
+                            <div class="meta-item">
+                                <span class="meta-label">Cook Time</span>
+                                <span class="meta-value">12 hrs</span>
+                            </div>
+                            <div class="meta-item">
+                                <span class="meta-label">Servings</span>
+                                <span class="meta-value">4 Bowls</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+           <!-- start slides  -->
+            <div class="slide">
+                    <div class="slide-img-box">
+                        <img src="https://placehold.co/600x450/e8dfd8/bc3b3b?text=Matcha+Souffle" alt="Matcha Souffle Pancakes">
+                    </div>
+                    <div class="slide-content">
+                        <span class="badge">Sweet Treat</span>
+                        <h3 class="slide-title">Fluffy Matcha Soufflé Pancakes</h3>
+                        <p class="slide-desc">Cloud-like Japanese soufflé pancakes infused with premium Uji matcha powder, drizzled with white chocolate glaze and powdered sugar.</p>
+                        <div class="recipe-meta">
+                            <div class="meta-item">
+                                <span class="meta-label">Prep Time</span>
+                                <span class="meta-value">20 mins</span>
+                            </div>
+                            <div class="meta-item">
+                                <span class="meta-label">Cook Time</span>
+                                <span class="meta-value">15 mins</span>
+                            </div>
+                            <div class="meta-item">
+                                <span class="meta-label">Servings</span>
+                                <span class="meta-value">2 Servings</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slide">
+                    <div class="slide-img-box">
+                        <img src="https://placehold.co/600x450/e8dfd8/bc3b3b?text=Chicken+Katsu" alt="Crispy Chicken Katsu">
+                    </div>
+                    <div class="slide-content">
+                        <span class="badge">Traditional</span>
+                        <h3 class="slide-title">Crispy Chicken Katsu Curry</h3>
+                        <p class="slide-desc">Golden-brown panko-crusted chicken cutlet served alongside warm, savory Japanese curry sauce and steaming short-grain white rice.</p>
+                        <div class="recipe-meta">
+                            <div class="meta-item">
+                                <span class="meta-label">Prep Time</span>
+                                <span class="meta-value">25 mins</span>
+                            </div>
+                            <div class="meta-item">
+                                <span class="meta-label">Cook Time</span>
+                                <span class="meta-value">20 mins</span>
+                            </div>
+                            <div class="meta-item">
+                                <span class="meta-label">Servings</span>
+                                <span class="meta-value">3 Servings</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- start buttons -->
+                  <button class="slider-arrow prev" onclick="moveSlide(-1)">&#10094;</button>
+            <button class="slider-arrow next" onclick="moveSlide(1)">&#10095;</button>
+                 <!-- end buttons -->
+            <!-- end slides -->
+             </div>
+            </section>
+            <!-- end food sections -->
+             <!-- start tutorial and insturctions -->
+                 <section class="guide-section">
+        <h2 class="section-title">Step-by-Step Masterclass</h2>
+        <div class="guide-grid">
+            <div class="guide-card">
+                <h3>Ingredients Needed</h3>
+                <ul class="ingredients-list">
+                    <li>2 packs of fresh ramen noodles or ramen wheat flour</li>
+                    <li>500g cow neck bones and cow belly slices</li>
+                    <li>4 soft-boiled marinated eggs (Ajitsuke Tamago)</li>
+                    <li>2 stalks of fresh green onions, finely chopped</li>
+                    <li>3 cloves of garlic and a thumb-sized piece of ginger</li>
+                    <li>2 tablespoons of authentic Japanese soy sauce (Shoyu)</li>
+                    <li>1 tablespoon of toasted sesame oil and nori sheets</li>
+                </ul>
+            </div>
+            <div class="guide-card">
+                <h3>Cooking Instructions</h3>
+                <ol class="instructions-list">
+                    <li>Blanch the cow bones in boiling water for 10 minutes to remove any impurities, then rinse thoroughly under cold water.</li>
+                    <li>In a large stockpot, combine the cleaned bones, sliced garlic, ginger, and scallions. Cover with water and simmer on medium-low for at least 10 hours until opaque and rich.</li>
+                    <li>Prepare the tare sauce by simmering soy sauce, mirin, and sake together until reduced by half. Set aside in a bowl.</li>
+                    <li>Boil the fresh ramen noodles in a separate pot of rapidly boiling water for exactly 90 seconds until al dente texture is reached.</li>
+                    <li>Assemble the bowls by pouring the hot rich broth over the tare sauce, add the drained noodles, and top neatly with sliced chashu, a halved marinated egg, and chopped green onions.</li>
+                </ol>
+            </div>
+        </div>
+    </section>
+              <!-- end tutorial and instructions  -->
+               <!-- start recommendation and details-->
+                <section class="popular-section">
+        <h2 class="section-title">Popular Recipes</h2>
+        <div class="popular-grid">
+            
+            <div class="recipe-card">
+                <div class="recipe-card-img">
+                    <img src="https://placehold.co/400x300/e8dfd8/bc3b3b?text=Salmon+Teriyaki" alt="Salmon Teriyaki">
+                </div>
+                <div class="recipe-card-body">
+                    <h3 class="recipe-card-title">Glazed Salmon Teriyaki</h3>
+                    <p class="recipe-card-desc">Pan-seared Atlantic salmon fillet bathed in a rich, glossy homemade sweet and savory teriyaki glaze.</p>
+                    <div class="recipe-meta">
+                        <div class="meta-item">
+                            <span class="meta-label">Time</span>
+                            <span class="meta-value">20 mins</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Servings</span>
+                            <span class="meta-value">2 People</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="recipe-card">
+                <div class="recipe-card-img">
+                    <img src="https://placehold.co/400x300/e8dfd8/bc3b3b?text=Gyoza" alt="Pan-Fried Gyoza">
+                </div>
+                <div class="recipe-card-body">
+                    <h3 class="recipe-card-title">Pan-Fried Chicken Gyoza</h3>
+                    <p class="recipe-card-desc">Crispy golden bottoms wrapped around juicy ground chicken, cabbage, and scallion filling served with spicy-sour ponzu.</p>
+                    <div class="recipe-meta">
+                        <div class="meta-item">
+                            <span class="meta-label">Time</span>
+                            <span class="meta-value">35 mins</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Servings</span>
+                            <span class="meta-value">4 People</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="recipe-card">
+                <div class="recipe-card-img">
+                    <img src="https://placehold.co/400x300/e8dfd8/bc3b3b?text=Matcha+Latte" alt="Iced Matcha Latte">
+                </div>
+                <div class="recipe-card-body">
+                    <h3 class="recipe-card-title">Creamy Iced Matcha Latte</h3>
+                    <p class="recipe-card-desc">Ceremonial grade whisked green tea layered smoothly over iced oat milk with a hint of organic vanilla bean syrup.</p>
+                    <div class="recipe-meta">
+                        <div class="meta-item">
+                            <span class="meta-label">Time</span>
+                            <span class="meta-value">5 mins</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Servings</span>
+                            <span class="meta-value">1 Person</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="recipe-card">
+                <div class="recipe-card-img">
+                    <img src="https://placehold.co/400x300/e8dfd8/bc3b3b?text=Matcha+Latte" alt="Iced Matcha Latte">
+                </div>
+                <div class="recipe-card-body">
+                    <h3 class="recipe-card-title">Creamy Iced Matcha Latte</h3>
+                    <p class="recipe-card-desc">Ceremonial grade whisked green tea layered smoothly over iced oat milk with a hint of organic vanilla bean syrup.</p>
+                    <div class="recipe-meta">
+                        <div class="meta-item">
+                            <span class="meta-label">Time</span>
+                            <span class="meta-value">5 mins</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Servings</span>
+                            <span class="meta-value">1 Person</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="recipe-card">
+                <div class="recipe-card-img">
+                    <img src="https://placehold.co/400x300/e8dfd8/bc3b3b?text=Matcha+Latte" alt="Iced Matcha Latte">
+                </div>
+                <div class="recipe-card-body">
+                    <h3 class="recipe-card-title">Creamy Iced Matcha Latte</h3>
+                    <p class="recipe-card-desc">Ceremonial grade whisked green tea layered smoothly over iced oat milk with a hint of organic vanilla bean syrup.</p>
+                    <div class="recipe-meta">
+                        <div class="meta-item">
+                            <span class="meta-label">Time</span>
+                            <span class="meta-value">5 mins</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Servings</span>
+                            <span class="meta-value">1 Person</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+     <!-- end recommendation and details -->
+      <!-- start footer -->
+       <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <a href="#" class="logo">Mikasa Kitchen</a>
+                <p>Bringing authentic Japanese flavors and culinary traditions straight to your home kitchen with ease and elegance.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Navigation</h4>
+                <ul>
+                    <li><a href="#">Home Recipes</a></li>
+                    <li><a href="#">Featured Dishes</a></li>
+                    <li><a href="#">Cooking Guides</a></li>
+                    <li><a href="#">Masterclass</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Legal & Support</h4>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Cookie Policy</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Mikasa Kitchen. All rights reserved.</p>
+        </div>
+    </footer>
+       <!-- end footer -->
+    </body>
+    </html>
+
+
+
+
+
+</html>
